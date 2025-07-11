@@ -1,7 +1,7 @@
 Package: mCRM
 Title: Avian Migration Collision Risk Model
-Version: 1.0.0
-Authors@R: person('HiDef Aerial Surveying Ltd.', '', email = 'grant.humphries@hidefsurveying.co.uk', role = c('cre', 'aut'))
+Version: 1.0.1
+Authors@R: person('Black Bawks Data Science Ltd.', '', email = 'grwhumphries@blackbawks.net', role = c('cre', 'aut'))
 Description: This application is an extension of the stochastic collision risk model focused on migratory birds.
 License: MIT + file LICENSE
 Imports: 
@@ -49,12 +49,12 @@ Imports:
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
-URL: https://github.com/hiDef-Aerial-Surveying/mCRM
-BugReports: https://github.com/hiDef-Aerial-Surveying/mCRM/issues
+URL: https://github.com/MarineScotlandScience/mCRM
+BugReports: https://github.com/MarineScotlandScience/mCRM/issues
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Depends: 
     R (>= 3.5)
 Remotes: 
-    HiDef-Aerial-Surveying/stochLAB
+    MarineScotlandScience/stochLAB

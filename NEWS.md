@@ -1,3 +1,6 @@
+# mCRM 1.0.1
+* Updated the readme and web links to point to new location at MarineScotlandScience
+
 # mCRM 1.0.0
 * Updated README for the custom shapefile option for wind farms
 * Checked and finalized recommendations from external review
