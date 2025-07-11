@@ -7,3 +7,6 @@ data-raw
 rsconnect
 dev
 build_scripts
+inst/doc
+/doc/
+/Meta/

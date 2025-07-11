@@ -52,9 +52,11 @@ RoxygenNote: 7.2.0
 URL: https://github.com/MarineScotlandScience/mCRM
 BugReports: https://github.com/MarineScotlandScience/mCRM/issues
 Suggests:
+    knitr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Depends: 
     R (>= 3.5)
 Remotes: 
     MarineScotlandScience/stochLAB
+VignetteBuilder: knitr

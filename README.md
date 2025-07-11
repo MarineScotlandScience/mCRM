@@ -6,7 +6,9 @@
 ## A Shiny app to model collision risk of migratory birds in offshore wind farms
 
 <!-- badges: start -->
-[![Lifecycle:Stable](https://img.shields.io/badge/Lifecycle-Stable-97ca00)]
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 ## Installation
@@ -34,12 +36,12 @@ You can access the mCRM on shinyapps.io:
 ## Using the interface
 
 Instructions on running the tool can be found at
-<https://hidef-aerial-surveying.github.io/mCRM/>
+<https://marinescotlandscience.github.io/mCRM/>
 
 ## Reporting bugs
 
 If you spot something out of place, please report it here:
-<https://github.com/HiDef-Aerial-Surveying/mCRM/issues>
+<https://github.com/MarineScotlandScience/mCRM/issues>
 
 ## Information
 
@@ -50,10 +52,10 @@ birds passing through offshore windfarms.
 
 The underlying functionality of the model is driven by the `stochLAB`
 package, which can be found at
-<https://github.com/HiDef-Aerial-Surveying/stochLAB>. The stochLAB
+<https://github.com/MarineScotlandScience/stochLAB>. The stochLAB
 package was developed by [DMP statistics](https://github.com/dmpstats)
-and [HiDef Surveying](https://github.com/Hidef-Aerial-Surveying).
+and [HiDef Surveying](https://github.com/Hidef-Aerial-Surveying), and
+maintained by [Black Bawks Data Science](https://github.com/blackbawks).
 
 This tool is partnered with the stochastic collision risk model (sCRM)
-tool, developed by [DMP statistics](https://github.com/dmpstats), which
-is currently under development and will be deployed soon.
+tool, developed by [DMP statistics](https://github.com/dmpstats).

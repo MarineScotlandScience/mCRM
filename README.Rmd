@@ -44,7 +44,7 @@ You can access the mCRM on shinyapps.io: [https://blackbawks.shinyapps.io/mCRM/]
 
 ## Using the interface
 
-Instructions on running the tool can be found at [https://blackbawks.github.io/mCRM/](https://blackbawks.github.io/mCRM/)
+Instructions on running the tool can be found at [https://marinescotlandscience.github.io/mCRM/](https://marinescotlandscience.github.io/mCRM/)
 
 ## Reporting bugs
 
