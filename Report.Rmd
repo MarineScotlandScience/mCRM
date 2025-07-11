@@ -20,8 +20,8 @@ library(plyr)
 ```
 
 This is an automatically generated report created by the migration collision risk model (mCRM) web application.  
-The tool can be found at: <https://hidefdevo.shinyapps.io/mcrm>, and its associated GitHub repo can be found at: <https://www.github.com/HiDef-Aerial-Surveying/mCRM>.  
-The tool acts as a wrapped for the stochLAB package <https://www.github.com/HiDef-Aerial-Surveying/stochLAB>, written by Bruno Caneco (bruno@dmpstats.com) and Grant Humphries (grant.humphries@hidefsurveying.co.uk).
+The tool can be found at: <https://blackbawks.shinyapps.io/mcrm>, and its associated GitHub repo can be found at: <https://www.github.com/MarineScotlandScience/mCRM>.  
+The tool acts as a wrapped for the stochLAB package <https://www.github.com/MarineScotlandScience/stochLAB>, written by Bruno Caneco (bruno@dmpstats.com) and Grant Humphries (grant.humphries@hidefsurveying.co.uk).
 
 <!---BLOCK_LANDSCAPE_START--->
 # Tables

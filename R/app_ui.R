@@ -30,16 +30,16 @@ app_ui <- function(request) {
     
     titleWidth =270,
   
-    tags$li(class = "dropdown", a(tags$b(paste0("v",packageVersion("mCRM"))), href="https://github.com/HiDef-Aerial-Surveying/mCRM/blob/master/NEWS.md",
+    tags$li(class = "dropdown", a(tags$b(paste0("v",packageVersion("mCRM"))), href="https://github.com/MarineScotlandScience/mCRM/blob/master/NEWS.md",
                                   style = "padding-top: 10px; padding-bottom: 10px", target='_blank', id="lbl_newsLink")),
     
-    tags$li(class = "dropdown", a(icon('file', "fa-2x"), href='https://hidef-aerial-surveying.github.io/mCRM/', 
+    tags$li(class = "dropdown", a(icon('file', "fa-2x"), href='https://marinescotlandscience.github.io/mCRM/', 
                                   style = "padding-top: 10px; padding-bottom: 10px", target='_blank', id="lbl_guideLink")),
     tags$li(class = "dropdown", a(icon('video', "fa-2x"), href='https://youtu.be/Q2ggiQXxXzE', 
                                   style = "padding-top: 10px; padding-bottom: 10px", target='_blank', id="lbl_videoLink")),
-    tags$li(class = "dropdown", a(icon('github', "fa-2x"), href='https://github.com/HiDef-Aerial-Surveying/mCRM', 
+    tags$li(class = "dropdown", a(icon('github', "fa-2x"), href='https://github.com/MarineScotlandScience/mCRM', 
                                   style = "padding-top: 10px; padding-bottom: 10px", target='_blank', id="lbl_codeLink")),
-    tags$li(class = "dropdown", a(icon('bug', "fa-2x"), href='https://github.com/HiDef-Aerial-Surveying/mCRM/issues', #exclamation-circle
+    tags$li(class = "dropdown", a(icon('bug', "fa-2x"), href='https://github.com/MarineScotlandScience/mCRM/issues', #exclamation-circle
                                   style = "padding-top: 10px; padding-bottom: 10px", target='_blank', id="lbl_issuesLink")),
     
     tags$li(class = "dropdown headerimg", a(img(src = "www/blackbawks.png", height = "40px"), href='https://blackbawks.net',
@@ -89,7 +89,7 @@ app_ui <- function(request) {
         h2("Avian Migration Collision risk"),
         img(src = "www/hexSticker.png", height = "180px"),
         p("The Avian migration collision risk model (mCRM) was developed under a Marine Scotland contract by HiDef Aerial Surveying Ltd. and\
-          DMP statistics. This application is in BETA and is undergoing testing and approval")
+          DMP statistics. Maintenance and updates by Black Bawks Data Science Ltd.")
       )
     )
   )  
